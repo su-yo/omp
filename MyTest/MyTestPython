@@ -1,7 +1,0 @@
-import cv2
-import numpy as np
-orgImage = cv2.imread('MyTestPicture.jpg', cv2.CV_LOAD_IMAGE_UNCHANGED)
-tempImage = np.uint8()
-tempImage = orgImage
-print(orgImage[ 180, 180 ])
-print(tempImage[ 180, 180 ])
